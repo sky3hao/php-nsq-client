@@ -1,11 +1,7 @@
 {
-  "name": "kdt-lib/queue",
-  "config": { "secure-http": false },
+  "name": "sky3hao/php-nsq-client",
   "require": {
     "react/react": ">=0.2.1"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "5.2.9"
   },
   "autoload": {
     "psr-4": {
@@ -13,12 +9,6 @@
     },
     "psr-0": {
       "nsqphp": "src/Adapter/nsqphp/src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Kdt\\Iron\\Queue\\Tests\\": "tests/source",
-      "Kdt\\Iron\\Queue\\Tests\\classes\\": "tests/classes"
     }
   }
 }
